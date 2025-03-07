@@ -14,11 +14,15 @@ Use this to select an individual sample from the dataset. This selection will up
 
 Displays the top 10 Operational Taxonomic Units (OTUs) found in the selected individual’s sample. The OTUs are represented as bars sorted by their frequency.
 
-**3. Bubble Chart**: visualizes all the OTUs found in the selected individual.
+3. **Bubble Chart:**
 
-**4. Sample MetaData Display**: displays the demographic information of the selected individual. It shows key-value pairs from the metadata JSON object.
+Visualizes all the OTUs found in the selected individual’s sample. The size and color of the bubbles represent the relative abundance of each OTU.
 
-**DATA SOURCE**
+4. **Sample MetaData Display:**
+
+Displays the demographic information of the selected individual. It shows key-value pairs sourced from the metadata JSON object, such as age, ethnicity, and gender.
+
+## Data Source
 
 The data for this dashboard is sourced from the samples.json file, which is stored at the URL provided in the instructions. The JSON file contains the necessary data for creating the visualizations and displaying the sample metadata.
 
