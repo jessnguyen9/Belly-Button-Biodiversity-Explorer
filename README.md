@@ -1,14 +1,18 @@
-# belly-button-challenge
+# Belly Button Challenge - Interactive Web Visualizations
 
-This README file provides an overview of the Interactive Web Visualizations dashboard and instructions on how to use it to explore the data
+This README file provides an overview of the Interactive Web Visualizations dashboard and instructions on how to use it to explore microbiome data.
 
-**OVERVIEW**
+## Overview
 
-The dashboard consists of the following components:
+The dashboard is designed to allow users to interactively explore the microbiome data of various individuals. It includes several key components for data visualization and metadata display:
 
-**1. Dropdown Menu**: is provided to select the individual (sample) for which you want to view the data.
+1. **Dropdown Menu:**
 
-**2. Horizontal Bar Chart**: displays the top 10 Operational Taxonomic Units (OTUs) found in the selected individual.
+Use this to select an individual sample from the dataset. This selection will update the visualizations to reflect data from the chosen sample.
+
+2. **Horizontal Bar Chart:** 
+
+Displays the top 10 Operational Taxonomic Units (OTUs) found in the selected individual’s sample. The OTUs are represented as bars sorted by their frequency.
 
 **3. Bubble Chart**: visualizes all the OTUs found in the selected individual.
 
